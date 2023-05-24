@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/example_DB
+    username: programmer
+    password: password1
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 936618328047-2vmra77lq4c1lavac1uqi6f8vmmc5p90.apps.googleusercontent.com
+            client-secret: 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
